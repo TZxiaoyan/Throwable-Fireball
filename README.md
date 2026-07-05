@@ -1,6 +1,6 @@
 # Throwable-Fireball/烈焰弹教父
 A Spigot plugin that allows players to launch throwable fireballs, similar to BedWars./一个Spigot插件，它能让玩家在游戏中得以像起床战争中那样扔出一枚火焰弹
-# Introduction/介绍使用说明
+# Introduction/使用说明
 ---
 
 When the plugin is first started, its features are enabled by default, and the language is set to Chinese (if you prefer to use English, please navigate to /plugin/Throwable Fireball/config.yml and change lang to en).
