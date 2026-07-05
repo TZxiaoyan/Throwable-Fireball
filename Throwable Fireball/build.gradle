@@ -1,0 +1,29 @@
+plugins {
+    id 'java'
+}
+
+group = 'shuoda'
+version = '1.0'
+compileJava.options.encoding = 'UTF-8'
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url = 'https://repo.papermc.io/repository/maven-public/'
+    }
+}
+
+dependencies {
+    compileOnly 'io.papermc.paper:paper-api:1.21.1-R0.1-SNAPSHOT'
+}
+
+jar {
+    archiveBaseName.set("Throwable Fireball")
+    archiveVersion.set("Beta 3.0")
+    from(sourceSets.main.output) // 包括 class + resources
+}

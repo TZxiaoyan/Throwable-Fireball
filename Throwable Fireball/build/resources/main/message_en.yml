@@ -1,0 +1,13 @@
+alreadyEnabled: "Plugin function is already enabled!"
+notEnabled: "Plugin function has been enabled!"
+alreadyDisabled: "Plugin function is already disabled!"
+notDisabled: "Plugin function has been disabled!"
+set: "Explosion power set to "
+pluginNotEnabled: "Plugin is not enabled!"
+suggestion: "Power value (0-100)"
+pluginEnabled: "Throwable_Fireball has been enabled!"
+pluginDisabled: "Throwable_Fireball has been disabled!"
+noArg: "Unknown command, type/tfb help' for help"
+usage: "Usage：\n/tfb on - Enable plugin function (right-click to launch a fireball)\n/tfb off - Disable plugin function (vanilla mechanics)\n/tfb setyield <yield> - Set the explosion power of the fireball (only effective when the function is enabled). 1 equals a ghast fireball, 3 equals a creeper explosion, 4 equals one TNT, 6 equals one end crystal\n\nYou can edit the explosion power regardless of whether the function is enabled."
+
+

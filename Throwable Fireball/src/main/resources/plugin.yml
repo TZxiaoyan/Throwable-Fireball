@@ -1,0 +1,12 @@
+name: Throwable_Fireball
+main: fun.demc.fireball.ThrowableFireball
+version: Beta 3.0
+api-version: 1.21.1
+commands:
+  tfb:
+    permission: tfb.admin
+    permission-message: Permission denied
+permissions:
+  tfb.admin:
+    description: allow the use of tfb commands
+    default: op
