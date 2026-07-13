@@ -14,6 +14,9 @@ Other:
 · /tfb off – Disable the plugin features
 · /tfb help – Display help information
 
+Note: By default, all /tfb commands can only be executed by operators (OPs), and the permission node is tfb.admin.
+
+
 ---------------------------------------
 
 第一次启动插件时，其功能默认启用，语言默认为中文（如果想要使用英文，请前往/plugin/Throwable Fireball/config.yml中将lang修改为en）
@@ -28,3 +31,4 @@ Other:
 /tfb off 关闭插件功能
 /tfb help 帮助
 
+注：所有/tfb命令默认只有op才能运行，其权限节点为tfb.admin
